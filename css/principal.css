@@ -1,0 +1,64 @@
+/*---VARIABLES---*/
+
+:root {
+    --andina-color: #1E7FD9;
+    --orinoquia-color: #90CA46;
+    --amazonas-color: #327D26;
+    --caribe-color: #D9B703;
+    --pacifico-color: #E8671F;
+    --home-color: #65C0BA;
+    --background-color-grey: #f5f5f5;
+    /* titulos h1 y h2*/
+    --text-primary-color: #43484D;
+    /* contenidos p*/
+    --text-secundary-color: #2B3035;
+    /* texto header y botones */
+    --text-header-color: #ffffff;
+    /* fuente para titulos */
+    --text-primary-font: AbrilFatface-Regular;
+    /* fuente para textos */
+    --text-secundary-font: MuktaMahee-Medium;
+    /* fuente para header y botones */
+    --text-header-font: MuktaMahee-SemiBold;
+}
+
+
+/* fuente para titulos */
+
+@font-face {
+    font-family: "AbrilFatface-Regular";
+    src: url(/webFonts/AbrilFatface-Regular.ttf);
+}
+
+
+/* fuente para los textos*/
+
+@font-face {
+    font-family: "MuktaMahee-Medium";
+    src: url(/webFonts/MuktaMahee-Medium.ttf);
+}
+
+
+/* fuente para los header y botones*/
+
+@font-face {
+    font-family: "MuktaMahee-SemiBold";
+    src: url(/webFonts/MuktaMahee-SemiBold.ttf);
+}
+
+
+/*TITULOS PRINCIPAL Y SECUNDARIO*/
+
+.color-titulo-h1-h2 {
+    font-family: var(--text-primary-font);
+    color: var(--text-primary-color);
+}
+
+
+/* TEXTO DE CONTENIDOS */
+
+.color-contenido {
+    font-family: var(--text-secundary-font);
+    color: var(--text-secundary-color);
+    font-size: 1.3em;
+}
