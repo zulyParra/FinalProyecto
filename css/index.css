@@ -1,6 +1,19 @@
 @import "principal.css";
+
 .est {
     width: 100%;
     height: 100px;
+    background-color: var(--home-color);
+}
+
+.c-textohome {
+    text-align: justify;
+}
+
+.c-titulohome {
+    text-align: center;
+}
+
+.c-colorcard {
     background-color: var(--home-color);
 }
