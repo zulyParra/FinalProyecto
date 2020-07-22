@@ -67,3 +67,16 @@
 .d-home-color {
   background-color: var(--home-color);
 }
+/* ESTILO PARA UN BOTON */
+.d-boton {
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: var(--home-color);
+  box-shadow: 0px 2px 4px rgba(52, 60, 68, 0.16),
+    0px 0px 1px rgba(117, 131, 142, 0.04);
+  border-radius: 8px;
+}
