@@ -67,6 +67,7 @@
 .d-home-color {
   background-color: var(--home-color);
 }
+
 /* ESTILO PARA UN BOTON */
 .d-boton {
   border: none;
@@ -80,3 +81,6 @@
     0px 0px 1px rgba(117, 131, 142, 0.04);
   border-radius: 8px;
 }
+
+/* MEDIA QUERY*/
+@media (max-width: 576px) {}

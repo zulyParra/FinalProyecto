@@ -6,6 +6,7 @@
      text-align: center;
 
 
+
  }
 
  .text2-i {
@@ -23,4 +24,10 @@
 
  .m-auto {
      margin: auto;
+ }
+
+ @media (max-width: 576px) {
+     .text1-i {
+         font-size: 1.7em;
+     }
  }
