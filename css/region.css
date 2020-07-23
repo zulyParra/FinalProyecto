@@ -1,19 +1,26 @@
-<<<<<<< HEAD
-@import "principal.css";
+ @import "principal.css";
 
-.text1-i {
-    font-family: var(--text-primary-font);
-    color: var(--text-primary-color);
-    text-align: center;
-    font-size: 2em;
+ .text1-i {
+     font-family: var(--text-primary-font);
+     color: var(--text-primary-color);
+     text-align: center;
 
-}
 
-.text2-i {
-    font-family: var(--text-secundary-font);
-    color: var(--text-secundary-color);
-    font-size: 1.3em;
-}
-=======
-@import "principal.css";
->>>>>>> 4cae57c13ba0e7e8d13f5574a388fce3cf31c8e9
+ }
+
+ .text2-i {
+     font-family: var(--text-secundary-font);
+     color: var(--text-secundary-color);
+     font-size: 1.3em;
+
+ }
+
+ .text3-i {
+     font-family: var(--text-secundary-font);
+     color: var(--text-secundary-color);
+     font-size: 1.3em;
+ }
+
+ .m-auto {
+     margin: auto;
+ }
