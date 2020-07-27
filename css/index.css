@@ -8,12 +8,44 @@
 
 .c-textohome {
     text-align: justify;
+    font-family: var(--text-secundary-font);
+
 }
 
 .c-titulohome {
     text-align: center;
+    font-family: var(--text-header-font);
+
 }
 
 .c-colorcard {
     background-color: var(--home-color);
+}
+
+.c-cajas {
+    height: fit-content;
+    flex-wrap: wrap;
+}
+
+.carousel-item img {
+    max-height: 30rem;
+
+}
+
+
+
+.o-box {
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding: 0px;
+    border: 1px;
+}
+
+.o-cajas {
+    max-height: 10em;
+
+}
+
+.o-fondo {
+    background-color: var(--background-color-grey);
 }
