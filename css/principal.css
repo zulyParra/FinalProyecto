@@ -80,6 +80,17 @@
   box-shadow: 0px 2px 4px rgba(52, 60, 68, 0.16),
     0px 0px 1px rgba(117, 131, 142, 0.04);
   border-radius: 8px;
+  border: transparent;
+}
+.d-boton:hover {
+  background-color: #66cac4;
+}
+
+/* estilo de color del footer */
+.d-color-letra-footer {
+  font-family: var(--text-secundary-font);
+  color: var(--text-header-color);
+  font-size: 1.3em;
 }
 
 /* MEDIA QUERY*/
