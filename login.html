@@ -4,17 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--estilos de ésta página-->
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="" href="#" type="image/x-icon">
+
     <!--permite utilizar los iconos de Font Awesome-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
+    <script src="./js/all.min.js">
+    </script>
     <!--permite utilizar los estilos de bootstrap-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="shortcut icon" href="./images/fabicon.ico" type="image/x-icon">
-    <title>Document</title>
+    <!--estilos de ésta página-->
+    <link rel="stylesheet" href="./css/login.css">
+
+    <!-- para normalizar la renderización de elementos en diferentes navegadores -->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <title>Eco-turismo por Colombia</title>
 </head>
 
-<body class="d-flex flex-column h-100 d-background-page">
+<body>
+
+    <div class="text-center">
+
+        <div class="width-form-container">
+            <form class="form-signin">
+                <img class="mb-4" src="/docs/4.5/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+                <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+                <label for="inputEmail" class="sr-only">Email address</label>
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                <label for="inputPassword" class="sr-only">Password</label>
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                <div class="checkbox mb-3">
+                    <label>
+                        <input type="checkbox" value="remember-me"> Remember me
+                    </label>
+                </div>
+                <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+                <p class="mt-5 mb-3 text-muted">&copy; 2017-2020</p>
+            </form>
+        </div>
+
+    </div>
+
+    <button type="submit" class="d-boton">Enviar</button>
+
+
     <footer class="d-home-color text-dark mt-auto py-3">
         <div class="container">
             <div class="row justify-content-center mb-2">
@@ -35,6 +66,7 @@
             </div>
         </div>
     </footer>
+
     <!-- Archivos Bootstrap javascript -->
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/popper.min.js"></script>

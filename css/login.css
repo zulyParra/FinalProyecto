@@ -1,1 +1,6 @@
 @import "principal.css";
+.width-form-container {
+    width: 30%;
+    margin-top: 8%;
+    margin-left: 33.33%;
+}
