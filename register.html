@@ -4,18 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--estilos de ésta página-->
-    <link rel="stylesheet" href="css/register.css">
+    <link rel="" href="#" type="image/x-icon">
+
     <!--permite utilizar los iconos de Font Awesome-->
-    <link rel="stylesheet" href="css/all.min.css">
+    <script src="./js/all.min.js"></script>
     <!--permite utilizar los estilos de bootstrap-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!--icono que se muestra en el navegador-->
-    <link rel="shortcut icon" href="" type="image/x-icon">
-    <title>Document</title>
+    <!--estilos de ésta página-->
+    <link rel="stylesheet" href="./css/register.css">
+
+    <!-- para normalizar la renderización de elementos en diferentes navegadores -->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <title>Proyecto Final</title>
 </head>
 
 <body>
+
+    <p>
+        <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false">Toggle both
+            elements</button>
+    </p>
+    <div class="row">
+        <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample1">
+                <div class="card card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample2">
+                <div class="card card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Archivos Bootstrap javascript -->
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/popper.min.js"></script>

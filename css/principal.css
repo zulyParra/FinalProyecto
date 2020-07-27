@@ -62,3 +62,9 @@
     color: var(--text-secundary-color);
     font-size: 1.3em;
 }
+
+@media (max-width: 576px) {
+    .text1-i {
+        font-size: 1.7em;
+    }
+}

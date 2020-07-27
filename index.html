@@ -4,36 +4,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="#" type="image/x-icon">
-    <!--estilos de ésta página-->
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="" href="#" type="image/x-icon">
+
     <!--permite utilizar los iconos de Font Awesome-->
-    <!-- <link rel="stylesheet" href="./css/all.min.css"> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
+    <script src="./js/all.min.js"></script>
     <!--permite utilizar los estilos de bootstrap-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--estilos de ésta página-->
+    <link rel="stylesheet" href="./css/index.css">
+
     <!-- para normalizar la renderización de elementos en diferentes navegadores -->
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <title>Proyecto Final</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="#">Logo<img src="#" width="30" height="30" alt="" loading="lazy"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #65C0BA;">
+        <a class="navbar-brand" href="#"><i class="fas fa-map-marked-alt  text-white"></i></a>
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fas fa-bars"></i></span>
+        </button> -->
+        <div class="dropdown d-lg-none">
+            <button class="navbar-toggler" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span><i class="fas fa-bars"></i></span>
+            </button>
+            <div class="dropdown-menu z-dropdown-menu text-center" aria-labelledby="dropdownMenu2">
+                <a class="dropdown-item" href="#">Home</a>
+                <a class="dropdown-item" href="#">Andina</a>
+                <a class="dropdown-item" href="#">Amazonas</a>
+                <a class="dropdown-item" href="#">Caribe</a>
+                <a class="dropdown-item" href="#">Orinoquía</a>
+                <a class="dropdown-item" href="#">Pacífico</a>
+            </div>
+        </div>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+                <li class="nav-item active d-sm-none d-lg-block">
+                    <a class="nav-link  text-white" href="#">Home <span class="sr-only"></span></a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle btn btn-outline-secondary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                <li class="nav-item dropdown d-sm-none d-lg-block">
+                    <a class="nav-link dropdown-toggle btn btn-outline-light text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Regiones
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu text-white" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">Andina</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Amazonas</a>
@@ -45,13 +60,17 @@
                         <a class="dropdown-item" href="#">Pacífico</a>
                     </div>
                 </li>
+
             </ul>
 
-            <button type="button" class="btn btn-outline-primary">Primary</button>
-            <button class="btn  btn-outline-secondary" type="button">Registrarse</button>
-            <button class="btn btn-sm btn-outline-secondary" type="button">Login</button>
+            <a class="nav-link text-white d-sm-none d-lg-block" href="#">Registrarse</a>
+
+            <button class="btn btn-outline-light d-sm-none d-lg-block" type="button">Iniciar sesión</button>
 
         </div>
+
+        <a class="z-navbar-user text-white d-lg-none" href="#"><i class="far fa-user-circle"></i></a>
+
     </nav>
 
 
