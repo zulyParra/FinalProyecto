@@ -83,10 +83,7 @@
     background-color: var(--home-color);
 }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 5568f6cf32c983c614505bdd3221268a8b9af361
 /* ESTILO PARA UN BOTON */
 
 .d-boton {
@@ -110,17 +107,7 @@
 /* estilo de color del footer */
 
 .d-color-letra-footer {
-<<<<<<< HEAD
-  font-family: var(--text-secundary-font);
-  color: var(--text-header-color);
-  font-size: 1.3em;
-}
-
-/* MEDIA QUERY*/
-@media (max-width: 576px) {}
-=======
     font-family: var(--text-secundary-font);
     color: var(--text-header-color);
     font-size: 1.3em;
 }
->>>>>>> 5568f6cf32c983c614505bdd3221268a8b9af361
