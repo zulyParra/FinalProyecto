@@ -1,1 +1,36 @@
-@import "principal.css";
+ @import "principal.css";
+
+ .text1-i {
+     font-family: var(--text-primary-font);
+     color: var(--text-primary-color);
+     text-align: center;
+
+
+
+ }
+
+ .text2-i {
+     font-family: var(--text-secundary-font);
+     color: var(--text-secundary-color);
+     font-size: 1.3em;
+
+ }
+
+ .text3-i {
+     font-family: var(--text-secundary-font);
+     color: var(--text-secundary-color);
+     font-size: 1.3em;
+ }
+
+ .m-auto {
+     margin: auto;
+ }
+
+ @media (max-width: 576px) {
+     .text1-i {
+         font-size: 1.7em;
+     }
+
+
+
+ }
