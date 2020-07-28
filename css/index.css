@@ -1,87 +1,34 @@
-<<<<<<< HEAD
-@import "principal.css";
+ @import "principal.css";
 
-.est {
-    width: 100%;
-    height: 100px;
-    background-color: var(--home-color);
-}
+ .navbar-light .navbar-toggler {
+     color: white;
+     border-color: white;
+ }
 
-.c-textohome {
-    text-align: justify;
-    font-family: var(--text-secundary-font);
+ .navbar {
+     justify-content: start;
+ }
 
-}
+ .z-navbar-user {
+     position: absolute;
+     right: 2%;
+     top: 35%;
+ }
 
-.c-titulohome {
-    text-align: center;
-    font-family: var(--text-header-font);
+ .z-dropdown-menu {
+     min-width: 54rem;
+     margin: 3.15rem 0 0;
+     border: none;
+ }
 
-}
+ .btn-outline-light:not(:disabled):not(.disabled).active,
+ .btn-outline-light:not(:disabled):not(.disabled):active,
+ .show>.btn-outline-light.dropdown-toggle {
+     background-color: #65C0BA;
+ }
 
-.c-colorcard {
-    background-color: var(--home-color);
-}
-
-.c-cajas {
-    height: fit-content;
-    flex-wrap: wrap;
-}
-
-.carousel-item img {
-    max-height: 30rem;
-
-}
-
-
-
-.o-box {
-    border-radius: 3px;
-    margin-bottom: 20px;
-    padding: 0px;
-    border: 1px;
-}
-
-.o-cajas {
-    max-height: 10em;
-
-}
-
-.o-fondo {
-    background-color: var(--background-color-grey);
-}
-=======
-    @import "principal.css";
-    .navbar-light .navbar-toggler {
-        color: white;
-        border-color: white;
-    }
-    
-    .navbar {
-        justify-content: start;
-    }
-    
-    .z-navbar-user {
-        position: absolute;
-        right: 2%;
-        top: 35%;
-    }
-    
-    .z-dropdown-menu {
-        min-width: 54rem;
-        margin: 3.15rem 0 0;
-        border: none;
-    }
-    
-    .btn-outline-light:not(:disabled):not(.disabled).active,
-    .btn-outline-light:not(:disabled):not(.disabled):active,
-    .show>.btn-outline-light.dropdown-toggle {
-        background-color: #65C0BA;
-    }
-    
-    .btn-outline-light:hover {
-        color: white;
-        background-color: #40bbb3;
-        ;
-    }
->>>>>>> 5568f6cf32c983c614505bdd3221268a8b9af361
+ .btn-outline-light:hover {
+     color: white;
+     background-color: #40bbb3;
+     ;
+ }
