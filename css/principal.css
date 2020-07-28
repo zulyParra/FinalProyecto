@@ -1,126 +1,111 @@
 /*---VARIABLES---*/
 
 :root {
-    --andina-color: #1e7fd9;
-    --orinoquia-color: #90ca46;
-    --amazonas-color: #327d26;
-    --caribe-color: #d9b703;
-    --pacifico-color: #e8671f;
-    --home-color: #65c0ba;
-    --background-color-grey: #f5f5f5;
-    /* titulos h1 y h2*/
-    --text-primary-color: #43484d;
-    /* contenidos p*/
-    --text-secundary-color: #2b3035;
-    /* texto header y botones */
-    --text-header-color: #ffffff;
-    /* fuente para titulos */
-    --text-primary-font: AbrilFatface-Regular;
-    /* fuente para textos */
-    --text-secundary-font: MuktaMahee-Medium;
-    /* fuente para header y botones */
-    --text-header-font: MuktaMahee-SemiBold;
+  --andina-color: #1e7fd9;
+  --orinoquia-color: #90ca46;
+  --amazonas-color: #327d26;
+  --caribe-color: #d9b703;
+  --pacifico-color: #e8671f;
+  --home-color: #65c0ba;
+  --background-color-grey: #f5f5f5;
+  /* titulos h1 y h2*/
+  --text-primary-color: #43484d;
+  /* contenidos p*/
+  --text-secundary-color: #2b3035;
+  /* texto header y botones */
+  --text-header-color: #ffffff;
+  /* fuente para titulos */
+  --text-primary-font: AbrilFatface-Regular;
+  /* fuente para textos */
+  --text-secundary-font: MuktaMahee-Medium;
+  /* fuente para header y botones */
+  --text-header-font: MuktaMahee-SemiBold;
 }
-
 
 /* fuente para titulos */
 
 @font-face {
-    font-family: "AbrilFatface-Regular";
-    src: url(/webFonts/AbrilFatface-Regular.ttf);
+  font-family: "AbrilFatface-Regular";
+  src: url(/webFonts/AbrilFatface-Regular.ttf);
 }
-
 
 /* fuente para los textos*/
 
 @font-face {
-    font-family: "MuktaMahee-Medium";
-    src: url(/webFonts/MuktaMahee-Medium.ttf);
+  font-family: "MuktaMahee-Medium";
+  src: url(/webFonts/MuktaMahee-Medium.ttf);
 }
-
 
 /* fuente para los header y botones*/
 
 @font-face {
-    font-family: "MuktaMahee-SemiBold";
-    src: url(/webFonts/MuktaMahee-SemiBold.ttf);
+  font-family: "MuktaMahee-SemiBold";
+  src: url(/webFonts/MuktaMahee-SemiBold.ttf);
 }
-
 
 /*TITULOS PRINCIPAL Y SECUNDARIO*/
 
 .color-titulo-h1-h2 {
-    font-family: var(--text-primary-font);
-    color: var(--text-primary-color);
+  font-family: var(--text-primary-font);
+  color: var(--text-primary-color);
 }
-
 
 /* TEXTO DE CONTENIDOS */
 
 .color-contenido {
-    font-family: var(--text-secundary-font);
-    color: var(--text-secundary-color);
-    font-size: 1.3em;
+  font-family: var(--text-secundary-font);
+  color: var(--text-secundary-color);
+  font-size: 1.3em;
 }
 
 @media (max-width: 576px) {
-    .text1-i {
-        font-size: 1.7em;
-    }
+  .text1-i {
+    font-size: 1.7em;
+  }
 }
-
 
 /* COLOR BACKGROUND DE LA PAGINA */
 
 .d-background-page {
-    background-color: var(--background-color-grey);
+  background-color: var(--background-color-grey);
 }
-
 
 /* COLOR BACKGROUND HOME */
 
 .d-home-color {
-    background-color: var(--home-color);
+  background-color: var(--home-color);
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 5568f6cf32c983c614505bdd3221268a8b9af361
 /* ESTILO PARA UN BOTON */
 
 .d-boton {
-    border: none;
-    color: white;
-    padding: 10px 32px;
-    text-decoration: none;
-    margin: 4px 2px;
-    cursor: pointer;
-    background-color: var(--home-color);
-    box-shadow: 0px 2px 4px rgba(52, 60, 68, 0.16), 0px 0px 1px rgba(117, 131, 142, 0.04);
-    border-radius: 8px;
-    border: transparent;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: var(--home-color);
+  box-shadow: 0px 2px 4px rgba(52, 60, 68, 0.16),
+    0px 0px 1px rgba(117, 131, 142, 0.04);
+  border-radius: 8px;
+  border: transparent;
 }
 
 .d-boton:hover {
-    background-color: #66cac4;
+  background-color: #66cac4;
 }
-
 
 /* estilo de color del footer */
 
 .d-color-letra-footer {
-<<<<<<< HEAD
   font-family: var(--text-secundary-font);
   color: var(--text-header-color);
   font-size: 1.3em;
 }
-
-/* MEDIA QUERY*/
-@media (max-width: 576px) {}
-=======
-    font-family: var(--text-secundary-font);
-    color: var(--text-header-color);
-    font-size: 1.3em;
+.d-main-footer {
+  position: relative;
+  bottom: 8px;
+  height: 33vh;
+  width: 100%;
 }
->>>>>>> 5568f6cf32c983c614505bdd3221268a8b9af361
