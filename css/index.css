@@ -1,33 +1,111 @@
-    @import "principal.css";
-    .navbar-light .navbar-toggler {
-        color: white;
-        border-color: white;
-    }
-    
-    .navbar {
-        justify-content: start;
-    }
-    
-    .z-navbar-user {
-        position: absolute;
-        right: 2%;
-        top: 35%;
-    }
-    
-    .z-dropdown-menu {
-        min-width: 54rem;
-        margin: 3.15rem 0 0;
-        border: none;
-    }
-    
-    .btn-outline-light:not(:disabled):not(.disabled).active,
-    .btn-outline-light:not(:disabled):not(.disabled):active,
-    .show>.btn-outline-light.dropdown-toggle {
-        background-color: #65C0BA;
-    }
-    
-    .btn-outline-light:hover {
-        color: white;
-        background-color: #40bbb3;
-        ;
-    }
+@import "principal.css";
+
+.est {
+  width: 100%;
+  height: 100px;
+  background-color: var(--home-color);
+}
+
+.c-textohome {
+  text-align: justify;
+  font-family: var(--text-secundary-font);
+}
+
+.c-titulohome {
+  text-align: center;
+  font-family: var(--text-header-font);
+}
+
+.c-colorcard {
+  background-color: var(--home-color);
+}
+
+.c-colorcard:hover {
+  background-color: var(--background-color-grey);
+}
+
+.o-card4:hover {
+  background-color: var(--home-color);
+}
+
+.o-card2:hover {
+  border-color: var(--home-color);
+}
+
+.c-cajas {
+  height: 40.5em;
+  flex-wrap: wrap;
+  object-fit: none;
+}
+
+.c-horizontalcajas {
+  width: 46em;
+  height: 15em;
+  flex-wrap: wrap;
+  object-fit: cover;
+}
+
+.carousel-item img {
+  max-height: 30rem;
+}
+
+.o-box {
+  border-radius: 3px;
+  margin-bottom: 20px;
+  padding: 0px;
+  border: 1px;
+}
+
+.o-cajas {
+  max-height: 10em;
+}
+
+.o-fondo {
+  background-color: var(--background-color-grey);
+}
+
+.navbar-light .navbar-toggler {
+  color: white;
+  border-color: white;
+}
+
+.navbar {
+  justify-content: start;
+}
+
+.z-navbar-user {
+  position: absolute;
+  right: 2%;
+  top: 35%;
+}
+
+.z-dropdown-menu {
+  min-width: 26rem;
+  left: -55px;
+  margin: 3.15rem 0 0;
+  top: -7px;
+  border: none;
+  min-height: 45rem;
+  font-family: var(--text-primary-font);
+  font-size: 40px;
+  padding-top: 1.5rem;
+}
+.z-dropdown-item {
+  display: block;
+  padding: 0.5rem;
+  color: var(--text-primary-color);
+}
+.active {
+  color: var(--home-color);
+}
+
+.btn-outline-light:not(:disabled):not(.disabled).active,
+.btn-outline-light:not(:disabled):not(.disabled):active,
+.show > .btn-outline-light.dropdown-toggle {
+  background-color: #65c0ba;
+}
+
+.btn-outline-light:hover {
+  color: white;
+  background-color: #40bbb3;
+}
