@@ -1,19 +1,11 @@
 @import "principal.css";
 @import "index.css";
 
-
 .text1-i {
   font-family: var(--text-primary-font);
   color: var(--text-primary-color);
   text-align: center;
 }
-
-.imagen-parque {
-  height: auto;
-  object-fit: cover;
-
-}
-
 
 .text2-i {
   font-family: var(--text-secundary-font);
@@ -31,13 +23,8 @@
   margin: auto;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 576px) {
   .text1-i {
     font-size: 1.7em;
-
-  }
-
-  .imagen-parque {
-    height: 100%;
   }
 }
