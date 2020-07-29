@@ -1,7 +1,6 @@
 @import "principal.css";
 @import "index.css";
 
-* {}
 
 .text1-i {
   font-family: var(--text-primary-font);
