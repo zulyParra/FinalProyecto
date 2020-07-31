@@ -1,13 +1,6 @@
 @import "principal.css";
-.btn-x-on {
-  display: none;
-}
-.btn-x-off {
-  display: block;
-}
-.btn-bars-on {
-  display: block;
-}
-.btn-bars-off {
-  display: none;
+
+.imagen-top {
+  width: 100%;
+  height: 100px;
 }
