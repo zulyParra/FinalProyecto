@@ -7,9 +7,8 @@
     color: #b4b4b4;
 }
 
-a:hover {
+.z-text-color:hover {
     color: var(--home-color);
-    text-decoration: underline;
 }
 
 
