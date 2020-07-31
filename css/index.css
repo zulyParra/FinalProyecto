@@ -1,19 +1,11 @@
 @import "principal.css";
 
-
 /*Inicio Estilos HOME2*/
-
-.est {
-    width: 100%;
-    height: 100px;
-    background-color: var(--home-color);
-}
 
 .c-textohome {
     text-align: justify;
     font-family: var(--text-secundary-font);
     color: var(--text-primary-color);
-
 }
 
 .c-titulohome {
@@ -39,13 +31,10 @@
     border-color: var(--home-color);
 }
 
-
-
 .c-cajas {
     height: 40.5em;
     flex-wrap: wrap;
     object-fit: none;
-
 }
 
 .c-horizontalcajas {
@@ -57,7 +46,6 @@
 
 .carousel-item img {
     max-height: 30rem;
-
 }
 
 @media screen and (max-width: 768px) {
@@ -75,14 +63,11 @@
 
 .o-cajas {
     max-height: 8em;
-
-
 }
 
 .o-fondo {
     background-color: var(--background-color-grey);
 }
-
 
 .box {
     /* Estado inicial */
@@ -101,14 +86,11 @@
     border-radius: 1%;
     color: var(--text-secundary-font);
     filter: saturate(150%);
-
-
-
 }
 
 
-
 /*fin Estilos HOME2*/
+
 .navbar-light .navbar-toggler {
     color: white;
     border-color: white;
@@ -139,5 +121,4 @@
 .btn-outline-light:hover {
     color: white;
     background-color: #40bbb3;
-    ;
 }

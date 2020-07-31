@@ -111,3 +111,94 @@
     color: var(--text-header-color);
     font-size: 1.3em;
 }
+
+.d-main-footer {
+    position: relative;
+    bottom: 8px;
+    height: 33vh;
+    width: 100%;
+}
+
+
+/* Estilos generales formularios */
+
+.d-borde-sombreado {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.d-estilo-titulo {
+    font-family: var(--text-primary-font);
+    color: var(--text-header-color);
+}
+
+.d-color-icon {
+    color: var(--home-color);
+}
+
+.form-input:valid {
+    border-color: #b4b4b4;
+}
+
+
+/* Estilos navbar movil zuly */
+
+.z-menu-mobile {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100vw;
+    height: calc(100vh - 50px);
+    background-color: #fff;
+    color: black;
+}
+
+.z-menu-mobile ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 2em;
+    text-align: center;
+    font-family: var(--text-header-font);
+}
+
+.z-navbar-user {
+    position: absolute;
+    right: 2%;
+    top: 26%;
+}
+
+
+/* estilos sobreescritos de bootstrap */
+
+.btn-outline-light:not(:disabled):not(.disabled).active,
+.btn-outline-light:not(:disabled):not(.disabled):active,
+.show>.btn-outline-light.dropdown-toggle {
+    color: white;
+    background-color: var(--home-color);
+}
+
+.btn-outline-light:hover {
+    color: white;
+    background-color: #66cac4;
+}
+
+@media (min-width: 992px) {
+    #menu-mobile {
+        display: none !important;
+    }
+}
+
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: white;
+}
+
+.navbar {
+    justify-content: start;
+    background-color: var(--home-color);
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: var(--home-color);
+}
