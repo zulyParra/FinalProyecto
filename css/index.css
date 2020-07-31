@@ -24,6 +24,7 @@
 
 .c-colorcard {
     background-color: var(--home-color);
+    padding-top: 15px;
 }
 
 .c-colorcard:hover {
@@ -59,7 +60,11 @@
 
 }
 
-
+@media screen and (max-width: 768px) {
+    .ocultar-div {
+        display: none;
+    }
+}
 
 .o-box {
     border-radius: 3px;
