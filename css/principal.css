@@ -109,6 +109,3 @@
     color: var(--text-header-color);
     font-size: 1.3em;
 }
-
-/* MEDIA QUERY*/
-@media (max-width: 576px) {}
