@@ -19,24 +19,38 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #65C0BA;">
+    <!-- Inicio Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top d-color-letra-footer">
         <a class="navbar-brand" href="#"><i class="fas fa-map-marked-alt  text-white"></i></a>
-        <div class="dropdown d-lg-none">
-            <button class="navbar-toggler" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true"
-                aria-expanded="false">
-                <span><i class="fas fa-bars"></i></span>
-            </button>
-            <div class="dropdown-menu z-dropdown-menu text-center" aria-labelledby="dropdownMenu2">
-                <a class="dropdown-item" href="index.html">Home</a>
-                <a class="dropdown-item" href="region.html">Andina</a>
-                <a class="dropdown-item" href="#">Amazonas</a>
-                <a class="dropdown-item" href="#">Caribe</a>
-                <a class="dropdown-item" href="#">Orinoquía</a>
-                <a class="dropdown-item" href="#">Pacífico</a>
-            </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-mobile">
+            <span><i class="fas fa-bars"></i></span>
+        </button>
+
+        <div id="menu-mobile" class=" collapse navbar-collapse z-menu-mobile">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active  d-estilo-titulo">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item  d-estilo-titulo">
+                    <a class="nav-link" href="region.html">Andina</a>
+                </li>
+                <li class="nav-item  d-estilo-titulo">
+                    <a class="nav-link" href="#">Amazonas</a>
+                </li>
+                <li class="nav-item  d-estilo-titulo">
+                    <a class="nav-link" href="#">Caribe</a>
+                </li>
+                <li class="nav-item  d-estilo-titulo">
+                    <a class="nav-link" href="#">Orinoquía</a>
+                </li>
+                <li class="nav-item  d-estilo-titulo">
+                    <a class="nav-link" href="#">Pacífico</a>
+                </li>
+            </ul>
         </div>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active d-sm-none d-lg-block">
                     <a class="nav-link  text-white" href="index.html">Home <span class="sr-only"></span></a>
@@ -59,24 +73,24 @@
                         <a class="dropdown-item" href="#">Pacífico</a>
                     </div>
                 </li>
-
             </ul>
 
             <a class="nav-link text-white d-sm-none d-lg-block" href="register.html">Registrarse</a>
 
-            <button class="btn btn-outline-light d-sm-none d-lg-block" onclick="location.href='/login.html'"
-                type="button">Iniciar sesión</button>
+            <a class="btn btn-outline-light d-sm-none d-lg-block" href="/login.html">Iniciar sesión</a>
 
         </div>
 
-        <a class="z-navbar-user text-white d-lg-none" href="#"><i class="far fa-user-circle"></i></a>
-
+        <a class="z-navbar-user text-white d-lg-none" href="register.html"><i class="far fa-user-circle fa-lg"></i></a>
     </nav>
+
+    <!-- Fin Navbar -->
+    <!-- Inicio Footer -->
     <footer class="d-home-color d-main-footer">
         <div class="container mt-auto py-3">
             <div class="row justify-content-center mb-2">
-                <div class="col-auto"><a class="d-color-letra-footer" href="#">contactenos</a></div>
-                <div class="col-auto"><a class="d-color-letra-footer" href="#">Sobre Nosotros</a></div>
+                <div class="col-auto"><a class="d-color-letra-footer" href="contactenos.html">Contáctenos</a></div>
+                <div class="col-auto"><a class="d-color-letra-footer" href="nosotros.html">Sobre nosotros</a></div>
             </div>
             <hr>
             <div class="row justify-content-center mb-2">
@@ -88,7 +102,8 @@
                 </div>
             </div>
             <div class="row justify-content-center mb2">
-                <div class="col-auto"><span class="d-color-letra-footer">© 2020,All rights reserved.</span></div>
+                <div class="col-auto"><span class="d-color-letra-footer">© 2020 todos los derechos reservados.</span>
+                </div>
             </div>
         </div>
     </footer>

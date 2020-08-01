@@ -1,22 +1,28 @@
 @import "principal.css";
 @import "index.css";
-
+/* estilo para sombrear la cajas de formularios */
 .d-borde-sombreado {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+/* estilo para establecer color blanco los titulos principales */
 .d-estilo-titulo {
   font-family: var(--text-primary-font);
   color: var(--text-header-color);
 }
-
+/* estilo para establecer color blanco los iconos */
 .d-color-icon {
   color: var(--home-color);
 }
-
-.form-input:valid {
-  border-color: #b4b4b4;
+/* estilo para las validaciones de los formulario */
+.form-validation .form-control:required:valid {
+  box-shadow: 0 0 0 0.2rem #1ec500;
 }
 
-.d-form-input:focus:invalid {
-  border-color: #ff0000d8;
+.form-validation .form-control:invalid {
+  box-shadow: 0 0 0 0.2rem #ff0000;
+  animation: headShake 500ms;
+}
+
+.form-validation .form-control:out-of-range {
+  color: #ff0000;
 }
