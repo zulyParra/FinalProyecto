@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="" href="#" type="image/x-icon">
 
-    <!--permite utilizar los iconos de Font Awesome-->
 
-    <script src="./js/all.min.js"></script>
     <!--permite utilizar los estilos de bootstrap-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!--estilos de ésta página-->
@@ -89,9 +87,10 @@
         <div class="container mt-5 ">
             <div class="row justify-content-center ">
                 <div class="col-12 col-md-8 col-lg-6 pb-5">
-
+                    <!-- mensaje alerta -->
+                    <div class="alert alert-danger" role="alert" id="mensaje-alerta" hidden> </div>
                     <!--Formulario Register encabezado-->
-                    <form action="#" method="post">
+                    <form id="form-register" action="#" novalidate>
                         <div class="card border rounded d-borde-sombreado">
                             <div class="card-header p-0">
                                 <div class="d-home-color d-estilo-titulo text-center py-3">
@@ -106,34 +105,46 @@
                                             <div class="input-group-text"><i class="fa fa-user d-color-icon"></i>
                                             </div>
                                         </div>
-                                        <input type="text" class="form-control d-form-input" id="nombre" name="nombre" placeholder="Email" autofocus required>
+                                        <input type="text" class="form-control d-form-input" id="nombre" name="nombre" placeholder="Nombre usuario" minlength="6" autofocus required>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <div class="input-group mb-2">
                                         <div class="input-group-prepend">
-                                            <div class="input-group-text"><i class="fas fa-key d-color-icon"></i>
+                                            <div class="input-group-text"><i class="fas fa-envelope d-color-icon"></i>
                                             </div>
                                         </div>
-                                        <input type="password" class="form-control d-form-input" id="password" name="password" placeholder="Contraseña" pattern="\b[\w\.-]+@[\w\.-]+\.\w{2,4}\b" required>
+                                        <input type="email" class="form-control d-form-input" id="email" name="email" placeholder="nombre@dominio.com" pattern="/^([\w\.\-_]+)?\w+@[\w-_]+(\.\w+){1,}$/" required>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <div class="input-group mb-2">
                                         <div class="input-group-prepend">
-                                            <div class="input-group-text"><i class="fas fa-key d-color-icon"></i>
-                                            </div>
+                                            <span class="input-group-text">
+                                                <i id="icono" class="fas fa-lock d-color-icon"></i>
+                                            </span>
                                         </div>
-                                        <input type="password" class="form-control d-form-input" id="password2" name="password2" placeholder="Repetir contraseña" pattern="\b[\w\.-]+@[\w\.-]+\.\w{2,4}\b" required>
+                                        <input type="password" class="form-control d-form-input" id="password" name="password" placeholder="Contraseña" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$" required>
                                     </div>
                                 </div>
-
-                                <div class="form-group z-margin z-text-color d-flex justify-content-between">
-                                    <div class=""><a>Tu contraseña debe contener al
-                                            menos 6 caracteres y debe
-                                            contener letras, números y símbolos. No puede contener espacios en
-                                            blanco.</a></div>
+                                <div class="form-group">
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i id="icono2" class="fas fa-lock d-color-icon"></i>
+                                            </div>
+                                        </div>
+                                        <input type="password" class="form-control d-form-input" id="password2" name="password2" placeholder="Repetir contraseña" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$" required>
+                                    </div>
                                 </div>
+                                <small class="form-text text-muted">La contraseña debe almenos 8 caracteres,
+                                    al menos un dígito, al menos una minúscula y al menos una mayúscula.
+                                    Puede tener caracteres especiales</small>
+                                <label class="label-check z-text-color">
+                                    <span>Recibir notificaciones</span>
+                                    <input class="input-check" type="checkbox" checked="checked" id="notificaciones"
+                                        name="notificaciones">
+                                    <span class="checkmark"></span>
+                                </label>
                                 <div class="text-center">
                                     <button type="submit" onclick="" class="d-boton">Regístrate</button>
                                 </div>
@@ -143,13 +154,15 @@
                                 </div>
 
                             </div>
+
                         </div>
+                    </form>
                 </div>
-                </form>
+
                 <!--Form fin-->
             </div>
         </div>
-        </div>
+
     </main>
     <!-- Fin Contenedor de formulario -->
     <!-- inicio de footer -->
@@ -178,6 +191,9 @@
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <!--permite utilizar los iconos de Font Awesome-->
+    <script src="./js/all.min.js"></script>
+    <script src="./js/register.js"></script>
 </body>
 
 </html>

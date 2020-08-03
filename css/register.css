@@ -1,2 +1,5 @@
 @import "principal.css";
 @import "login.css";
+.form-text {
+    margin-bottom: 1rem;
+}
