@@ -11,7 +11,7 @@
     <!--permite utilizar los estilos de bootstrap-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!--estilos de ésta página-->
-    <link rel="stylesheet" href="./css/regionTodosLosDestinos.css">
+    <link rel="stylesheet" href="./css/todaslasregiones.css">
 
     <!-- para normalizar la renderización de elementos en diferentes navegadores -->
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
@@ -19,8 +19,8 @@
 </head>
 
 <body>
-    <!-- Inicio Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top d-color-letra-footer">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top d-color-letra-footer color-region-amazonas">
+
         <a class="navbar-brand" href="#"><i class="fas fa-map-marked-alt  text-white"></i></a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-mobile">
@@ -83,14 +83,87 @@
 
         <a class="z-navbar-user text-white d-lg-none" href="register.html"><i class="far fa-user-circle fa-lg"></i></a>
     </nav>
+    <main>
+        <div class="container">
+            <div class="row pt-4">
+                <div class="col-md order-md-2">
+                    <h1 class="text1-i d-md-none d-block pt-3">Destinos más visitados</h1>
+                    <img class="img-fluid imagen-parque" src="./images/Amazon_river_dolphin_brazil-1024x768.jpg"
+                        alt="salado">
+                </div>
+                <div class="col-md">
+                    <h1 class="text1-i d-md-block d-none pt-3">
+                        Destinos más visitados
+                    </h1>
 
-    <!-- Fin Navbar -->
-    <!-- Inicio Footer -->
-    <footer class="d-home-color d-main-footer">
+                    <p class="text2-i d-md-block d-none">
+                        Los dos destinos mas visitados por nuestros clientes son el rio Amazonas ya que allí se
+                        encuentra el mayor espectáculo en
+                        la zona es la presencia de los delfines amazónicos. El delfín de río y el delfín rosado son
+                        animales hermosos y muy populares entre los viajeros. Y el segundo, el conocido Parque Nacional
+                        Natural
+                        Amacayacu, debido a que posee ecosistemas de selva de tierra firme, que son paisajes importantes
+                        para
+                        las culturas indígenas y las especies del entorno.
+                    </p>
+                    <div class="text-center text-md-left">
+                        <button class="d-boton color-region-amazonas">Enviar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-4">
+                <div class="col-md text-center">
+                    <h1 class="text1-i d-md-none d-block">Todos los destinos</h1>
+                    <img class="d-block mx-auto img-fluid " src="./images/lagos-de-tarapoto-amazonas.jpg" alt="...">
+                    <div class="text-center">
+                        <button type="submit"
+                            class="d-boton color-region-amazonas d-md-none  d-inline-block">Enviar</button>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="d-md-block d-none">
+                        <h1 class="text1-i">Todos los destinos</h1>
+                        <p class="text2-i">
+                            La región Amazónica de Colombia es vasta e interesante. Mayormente inexplorada, la selva del
+                            Amazonas
+                            ofrece muchos planes increíbles que no muchos conocen. ¡Acompáñanos a descubrir seis
+                            planes turísticos de la región! Mira:
+                            Parque Nacional Natural Serranía de Chiribiquete.
+                            Puerto Nariño.
+                            Reserva Natural Tanimboca.
+                            Leticia.
+                            Reserva Natural Marasha.
+                            Lago Tarapoto.
+                        </p>
+                        <div>
+                            <button type="submit" class="d-boton color-region-amazonas">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h1 class="text1-i">Ubique su destino
+            </h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md">
+                    <div class="embed-responsive embed-responsive-21by9">
+                        <iframe class="embed-responsive-item"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8171137.045906059!2d-76.53833179518155!3d-0.09347466898326993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3fba03540e5ea7%3A0xc39b903baa32c8c3!2sAmazon%20Natural%20Region!5e0!3m2!1sen!2sco!4v1596420647542!5m2!1sen!2sco"></iframe>
+                        <!--end responsive-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end region-->
+    </main>
+    <footer class="color-region-amazonas d-main-footer">
         <div class="container mt-auto py-3">
             <div class="row justify-content-center mb-2">
-                <div class="col-auto"><a class="d-color-letra-footer" href="contactenos.html">Contáctenos</a></div>
-                <div class="col-auto"><a class="d-color-letra-footer" href="nosotros.html">Sobre nosotros</a></div>
+                <div class="col-auto"><a class="d-color-letra-footer" href="#">Contáctenos</a></div>
+                <div class="col-auto"><a class="d-color-letra-footer" href="#">Sobre nosotros</a></div>
             </div>
             <hr>
             <div class="row justify-content-center mb-2">
@@ -102,8 +175,7 @@
                 </div>
             </div>
             <div class="row justify-content-center mb2">
-                <div class="col-auto"><span class="d-color-letra-footer">© 2020 todos los derechos reservados.</span>
-                </div>
+                <div class="col-auto"><span class="d-color-letra-footer">© 2020,All rights reserved.</span></div>
             </div>
         </div>
     </footer>

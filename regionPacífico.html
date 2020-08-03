@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="" href="#" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/fabicon.ico" type="image/x-icon">
 
     <!--permite utilizar los iconos de Font Awesome-->
     <script src="./js/all.min.js"></script>
     <!--permite utilizar los estilos de bootstrap-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!--estilos de ésta página-->
-    <link rel="stylesheet" href="./css/region.css">
+    <link rel="stylesheet" href="./css/todaslasregiones.css">
 
     <!-- para normalizar la renderización de elementos en diferentes navegadores -->
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
@@ -19,8 +19,13 @@
 </head>
 
 <body>
+<<<<<<< HEAD:region.html
     <!-- inicio Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light sticky-top d-color-letra-footer">
+=======
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top d-color-letra-footer color-region-pacifico">
+
+>>>>>>> develop:regionPacífico.html
         <a class="navbar-brand" href="#"><i class="fas fa-map-marked-alt  text-white"></i></a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-mobile">
@@ -30,22 +35,22 @@
         <div id="menu-mobile" class=" collapse navbar-collapse z-menu-mobile">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active  d-estilo-titulo">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+                    <a class="nav-link" href="index.html">Inicio <span class="sr-only"></span></a>
                 </li>
                 <li class="nav-item  d-estilo-titulo">
-                    <a class="nav-link" href="region.html">Andina</a>
+                    <a class="nav-link" href="regionAndina.html">Andina</a>
                 </li>
                 <li class="nav-item  d-estilo-titulo">
-                    <a class="nav-link" href="#">Amazonas</a>
+                    <a class="nav-link" href="regionAmazonas.html">Amazonas</a>
                 </li>
                 <li class="nav-item  d-estilo-titulo">
-                    <a class="nav-link" href="#">Caribe</a>
+                    <a class="nav-link" href="regionCaribe.html">Caribe</a>
                 </li>
                 <li class="nav-item  d-estilo-titulo">
-                    <a class="nav-link" href="#">Orinoquía</a>
+                    <a class="nav-link" href="regionOrinoquía.html">Orinoquía</a>
                 </li>
                 <li class="nav-item  d-estilo-titulo">
-                    <a class="nav-link" href="#">Pacífico</a>
+                    <a class="nav-link" href="regionPacífico.html">Pacífico</a>
                 </li>
             </ul>
         </div>
@@ -53,23 +58,24 @@
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active d-sm-none d-lg-block">
-                    <a class="nav-link  text-white" href="index.html">Home <span class="sr-only"></span></a>
+                    <a class="nav-link  text-white" href="index.html">Inicio <span class="sr-only"></span></a>
                 </li>
 
                 <li class="nav-item dropdown d-sm-none d-lg-block">
-                    <a class="nav-link dropdown-toggle btn btn-outline-light text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle btn btn-outline-light text-white" href="#" id="navbarDropdown"
+                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Regiones
                     </a>
                     <div class="dropdown-menu text-white" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="region.html">Andina</a>
+                        <a class="dropdown-item" href="regionAndina.html">Andina</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Amazonas</a>
+                        <a class="dropdown-item" href="regionAmazonas.html">Amazonas</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Caribe</a>
+                        <a class="dropdown-item" href="regionCaribe.html">Caribe</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Orinoquía</a>
+                        <a class="dropdown-item" href="regionOrinoquía.html">Orinoquía</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Pacífico</a>
+                        <a class="dropdown-item" href="regionPacífico.html">Pacífico</a>
                     </div>
                 </li>
             </ul>
@@ -82,15 +88,12 @@
 
         <a class="z-navbar-user text-white d-lg-none" href="register.html"><i class="far fa-user-circle fa-lg"></i></a>
     </nav>
-
-    <!-- Fin Navbar -->
-
     <main>
         <div class="container">
             <div class="row pt-4">
                 <div class="col-md order-md-2">
                     <h1 class="text1-i d-md-none d-block pt-3">Destinos más visitados</h1>
-                    <img class="img-fluid imagen-parque" src="./images/parque-ecoturistico-el-salado.jpg" alt="salado">
+                    <img class="img-fluid imagen-parque" src="./images/bahia_solano.jpg" alt="salado">
                 </div>
                 <div class="col-md">
                     <h1 class="text1-i d-md-block d-none pt-3">
@@ -98,31 +101,33 @@
                     </h1>
 
                     <p class="text2-i d-md-block d-none">
-                        Piscinas naturales, zonas deportivas, puentes elevados hechos de madera y casetas de pino con fogones de piedra son algunos de los atractivos que los turistas tienen a su disposición en el Parque Ecoturístico El Salado, en Envigado. Este sitio, que tiene
-                        un mirador y un vivero de orquídeas, entre otras cosas, es una reserva ecológica de 170.000 m2 donde se aprecian árboles nativos.
+                        Y si aqui estas lo que más aman nuestros turistas la Bahía Solano por el gran avistamiento de
+                        ballenas y la oportunidad de ver uno de los atardeceres más espectaculares de Colombia.Y nuestro
+                        atractivo Nuqui ¡te esperamos para conocerlo!
                     </p>
                     <div class="text-center text-md-left">
-                        <button class="d-boton ">Enviar</button>
+                        <button class="d-boton color-region-pacifico">Enviar</button>
                     </div>
                 </div>
             </div>
             <div class="row pt-4">
                 <div class="col-md text-center">
                     <h1 class="text1-i d-md-none d-block">Todos los destinos</h1>
-                    <img class="d-block mx-auto img-fluid " src="./images/reserva-ecologica-san-sebastian-la-castellana.jpg" alt="...">
+                    <img class="d-block mx-auto img-fluid " src="./images/nuqui.jpg" alt="...">
                     <div class="text-center">
-                        <button type="submit" class="d-boton d-md-none  d-inline-block">Enviar</button>
+                        <button type="submit"
+                            class="d-boton color-region-pacifico d-md-none  d-inline-block">Enviar</button>
                     </div>
                 </div>
                 <div class="col-md">
                     <div class="d-md-block d-none">
                         <h1 class="text1-i">Todos los destinos</h1>
                         <p class="text2-i">
-                            En el municipio de El Retiro, 32 km al sur de Medellín, se puede visitar la reserva ecológica San Sebastián La Castellana, un complejo de siete miradores desde donde se observan panorámicas de los valles de Aburrá y San Nicolás. Incluso, en días soleados
-                            se aprecian algunas montañas de Caldas, el Nevado del Ruiz y la piedra de El Peñol.
+                            Los turistas que aman renovar sus energías en el agua prefieren esta atractiva región y
+                            eligen como destinos las Islas de Malpelo, Nuqui, Bahía Solano y la conocida Isla Gorgona.
                         </p>
                         <div>
-                            <button type="submit" class="d-boton">Enviar</button>
+                            <button type="submit" class="d-boton color-region-pacifico">Enviar</button>
                         </div>
                     </div>
                 </div>
@@ -139,21 +144,21 @@
         <div class="container">
             <div class="row">
                 <div class="col-md">
-                </div>
-                <div class="img-fluid" style="width: 100%">
-                    <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?widtamph=100%25&;height=600&amp;hl=es&amp;q=Les%20Rambles,%201%20Barcelona,%20Spain+(Mi%20nombre%20de%20egocios)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-                    <a href="https://www.mapsdirections.info/marcar-radio-circulo-mapa/"></a>
-                    <!--end responsive-->
+                    <div class="embed-responsive embed-responsive-21by9">
+                        <iframe class="embed-responsive-item"
+                            src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d4073368.0854305546!2d-76.75!3d4.43!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1596422259277!5m2!1ses-419!2sco"></iframe>
+                        <!--end responsive-->
+                    </div>
                 </div>
             </div>
         </div>
         <!--end region-->
     </main>
-    <footer class="d-home-color d-main-footer">
+    <footer class="color-region-pacifico d-main-footer">
         <div class="container mt-auto py-3">
             <div class="row justify-content-center mb-2">
-                <div class="col-auto"><a class="d-color-letra-footer" href="contactenos.html">contactenos</a></div>
-                <div class="col-auto"><a class="d-color-letra-footer" href="#">Sobre Nosotros</a></div>
+                <div class="col-auto"><a class="d-color-letra-footer" href="#">Contáctenos</a></div>
+                <div class="col-auto"><a class="d-color-letra-footer" href="#">Sobre nosotros</a></div>
             </div>
             <hr>
             <div class="row justify-content-center mb-2">

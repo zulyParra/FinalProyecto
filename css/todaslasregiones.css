@@ -1,0 +1,58 @@
+@import "principal.css";
+@import "index.css";
+
+.text1-i {
+  font-family: var(--text-primary-font);
+  color: var(--text-primary-color);
+  text-align: center;
+}
+
+.text2-i {
+  font-family: var(--text-secundary-font);
+  color: var(--text-secundary-color);
+  font-size: 1.3em;
+}
+
+.text3-i {
+  font-family: var(--text-secundary-font);
+  color: var(--text-secundary-color);
+  font-size: 1.3em;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+@media (max-width: 576px) {
+  .text1-i {
+    font-size: 1.7em;
+  }
+}
+
+/*--colores region andina */
+
+.color-region-andina {
+  background-color: var(--andina-color);
+}
+
+/*--end color andina */
+
+/*--colores region amazonas*/
+.color-region-amazonas {
+  background-color: var(--amazonas-color);
+}
+
+/*--colores region caribe */
+.color-region-caribe {
+  background-color: var(--caribe-color);
+}
+
+/*--colores region orinoquuía */
+.color-region-orinoquia {
+  background-color: var(--orinoquia-color);
+}
+
+/*--colores region pacifico*/
+.color-region-pacifico {
+  background-color: var(--pacifico-color);
+}
