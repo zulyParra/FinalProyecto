@@ -3,155 +3,152 @@
 /*Inicio Estilos HOME2*/
 
 .c-textohome {
-    text-align: justify;
-    font-family: var(--text-secundary-font);
-    color: var(--text-primary-color);
+  text-align: justify;
+  font-family: var(--text-secundary-font);
+  color: var(--text-primary-color);
 }
 
 .c-titulohome {
-    text-align: center;
-    font-family: var(--text-header-font);
-    color: var(--text-primary-color);
+  text-align: center;
+  font-family: var(--text-header-font);
+  color: var(--text-primary-color);
 }
 
 .c-colorcard {
-    background-color: var(--home-color);
-    padding-top: 15px;
+  background-color: var(--home-color);
+  padding-top: 15px;
 }
 
 .c-colorcard:hover {
-    background-color: var(--background-color-grey);
+  background-color: var(--background-color-grey);
 }
 
 .o-card4:hover {
-    background-color: var(--home-color);
+  background-color: var(--home-color);
 }
 
 .o-card2:hover {
-    border-color: var(--home-color);
+  border-color: var(--home-color);
 }
 
 .c-cajas {
-    height: 40.5em;
-    flex-wrap: wrap;
-    object-fit: none;
+  height: 40.5em;
+  flex-wrap: wrap;
+  object-fit: none;
 }
 
 .c-horizontalcajas {
-    width: 46em;
-    height: 15em;
-    flex-wrap: wrap;
-    object-fit: cover;
+  width: 46em;
+  height: 15em;
+  flex-wrap: wrap;
+  object-fit: cover;
 }
 
 .carousel-item img {
-    max-height: 30rem;
+  max-height: 30rem;
 }
 
 @media screen and (max-width: 768px) {
-    .ocultar-div {
-        display: none;
-    }
+  .ocultar-div {
+    display: none;
+  }
 }
 
 .o-box {
-    border-radius: 3px;
-    margin-bottom: 20px;
-    padding: 0px;
-    border: 1px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  padding: 0px;
+  border: 1px;
 }
 
 .o-cajas {
-    max-height: 8em;
+  max-height: 8em;
 }
 
 .o-fondo {
-    background-color: var(--background-color-grey);
+  background-color: var(--background-color-grey);
 }
 
 .box {
-    /* Estado inicial */
-    border: solid transparent;
-    color: transparent;
-    /*
+  /* Estado inicial */
+  border: solid transparent;
+  color: transparent;
+  /*
 		border-style: solid;
 		border-color: transparent;
 	*/
-    transition: border 1s, border-radius 1s;
+  transition: border 1s, border-radius 1s;
 }
 
 .box:hover {
-    /* Estado Final */
-    border-color: var(--home-color);
-    border-radius: 1%;
-    color: #000000;
-    filter: saturate(150%);
+  /* Estado Final */
+  border-color: var(--home-color);
+  border-radius: 1%;
+  color: #000000;
+  filter: saturate(150%);
 }
 
 .o-cuadro-texto {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
-
 
 .o-cuadro-texto:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
-
-
 .o-mensaje {
-    text-align: center;
-    font-family: var(--text-secundary-font);
-    color: var(--amazonas-color);
+  text-align: center;
+  font-family: var(--text-secundary-font);
+  color: var(--amazonas-color);
 }
 
 .o-texto-imagenes {
-    position: absolute;
-    background-color: #4CAF50;
-    color: white;
-    font-size: 1rem;
-    padding: 1rem 1rem;
-    top: 40%;
-    left: 50%;
+  position: absolute;
+  background-color: #4caf50;
+  color: white;
+  font-size: 1rem;
+  padding: 1rem 1rem;
+  top: 40%;
+  left: 50%;
 }
 
 /*fin Estilos HOME2*/
 
 .navbar-light .navbar-toggler {
-    color: white;
-    border-color: white;
+  color: white;
+  border-color: white;
 }
 
 .navbar {
-    justify-content: start;
+  justify-content: start;
 }
 
 .z-navbar-user {
-    position: absolute;
-    right: 2%;
-    top: 35%;
+  position: absolute;
+  right: 2%;
+  top: 35%;
 }
 
 .z-dropdown-menu {
-    min-width: 54rem;
-    margin: 3.15rem 0 0;
-    border: none;
+  min-width: 54rem;
+  margin: 3.15rem 0 0;
+  border: none;
 }
 
 .btn-outline-light:not(:disabled):not(.disabled).active,
 .btn-outline-light:not(:disabled):not(.disabled):active,
-.show>.btn-outline-light.dropdown-toggle {
-    background-color: #65c0ba;
+.show > .btn-outline-light.dropdown-toggle {
+  background-color: #65c0ba;
 }
 
 .btn-outline-light:hover {
-    color: white;
-    background-color: #40bbb3;
+  color: white;
+  background-color: #40bbb3;
 }

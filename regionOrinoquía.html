@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="" href="#" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/fabicon.ico" type="image/x-icon">
 
     <!--permite utilizar los iconos de Font Awesome-->
     <script src="./js/all.min.js"></script>
@@ -19,27 +19,41 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color:#e8671f;">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top d-color-letra-footer color-region-orinoquia">
+
         <a class="navbar-brand" href="#"><i class="fas fa-map-marked-alt  text-white"></i></a>
-        <div class="dropdown d-lg-none">
-            <button class="navbar-toggler" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true"
-                aria-expanded="false">
-                <span><i class="fas fa-bars"></i></span>
-            </button>
-            <div class="dropdown-menu z-dropdown-menu text-center" aria-labelledby="dropdownMenu2">
-                <a class="dropdown-item" href="index.html">Home</a>
-                <a class="dropdown-item" href="region.html">Andina</a>
-                <a class="dropdown-item" href="#">Amazonas</a>
-                <a class="dropdown-item" href="#">Caribe</a>
-                <a class="dropdown-item" href="#">Orinoquía</a>
-                <a class="dropdown-item" href="#">Pacífico</a>
-            </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-mobile">
+            <span><i class="fas fa-bars"></i></span>
+        </button>
+
+        <div id="menu-mobile" class=" collapse navbar-collapse z-menu-mobile">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active  d-estilo-titulo">
+                    <a class="nav-link" href="index.html">Inicio <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item  d-estilo-titulo">
+                    <a class="nav-link" href="regionAndina.html">Andina</a>
+                </li>
+                <li class="nav-item  d-estilo-titulo">
+                    <a class="nav-link" href="regionAmazonas.html">Amazonas</a>
+                </li>
+                <li class="nav-item  d-estilo-titulo">
+                    <a class="nav-link" href="regionCaribe.html">Caribe</a>
+                </li>
+                <li class="nav-item  d-estilo-titulo">
+                    <a class="nav-link" href="regionOrinoquía.html">Orinoquía</a>
+                </li>
+                <li class="nav-item  d-estilo-titulo">
+                    <a class="nav-link" href="regionPacífico.html">Pacífico</a>
+                </li>
+            </ul>
         </div>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active d-sm-none d-lg-block">
-                    <a class="nav-link  text-white" href="index.html">Home <span class="sr-only"></span></a>
+                    <a class="nav-link  text-white" href="index.html">Inicio <span class="sr-only"></span></a>
                 </li>
 
                 <li class="nav-item dropdown d-sm-none d-lg-block">
@@ -48,36 +62,33 @@
                         Regiones
                     </a>
                     <div class="dropdown-menu text-white" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="region.html">Andina</a>
+                        <a class="dropdown-item" href="regionAndina.html">Andina</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Amazonas</a>
+                        <a class="dropdown-item" href="regionAmazonas.html">Amazonas</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Caribe</a>
+                        <a class="dropdown-item" href="regionCaribe.html">Caribe</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Orinoquía</a>
+                        <a class="dropdown-item" href="regionOrinoquía.html">Orinoquía</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Pacífico</a>
+                        <a class="dropdown-item" href="regionPacífico.html">Pacífico</a>
                     </div>
                 </li>
-
             </ul>
 
             <a class="nav-link text-white d-sm-none d-lg-block" href="register.html">Registrarse</a>
 
-            <button class="btn btn-outline-light d-sm-none d-lg-block" onclick="location.href='/login.html'"
-                type="button">Iniciar sesión</button>
+            <a class="btn btn-outline-light d-sm-none d-lg-block" href="/login.html">Iniciar sesión</a>
 
         </div>
 
-        <a class="z-navbar-user text-white d-lg-none" href="#"><i class="far fa-user-circle"></i></a>
-
+        <a class="z-navbar-user text-white d-lg-none" href="register.html"><i class="far fa-user-circle fa-lg"></i></a>
     </nav>
     <main>
         <div class="container">
             <div class="row pt-4">
                 <div class="col-md order-md-2">
                     <h1 class="text1-i d-md-none d-block pt-3">Destinos más visitados</h1>
-                    <img class="img-fluid imagen-parque" src="./images/bahia solano.jpg" alt="salado">
+                    <img class="img-fluid imagen-parque" src="./images/3186.jpg" alt="salado">
                 </div>
                 <div class="col-md">
                     <h1 class="text1-i d-md-block d-none pt-3">
@@ -85,32 +96,35 @@
                     </h1>
 
                     <p class="text2-i d-md-block d-none">
-                        Y si aqui estas lo que más aman nuestros turistas la Bahía Solano por el gran avistamiento de
-                        ballenas y la oportunidad de ver uno de los atardeceres más espectaculares de Colombia.Y nuestro
-                        atractivo Nuqui ¡te esperamos para conocerlo!
+                        Los turistas aman los llanos para ir a tomarse un momento de relajación y reflexión, asi que
+                        deciden escoger estos destinos por su encanto Villavicencia, Yopal y Puerto Carreño, y por
+                        supuesto ¡qué delicia de clima!
                     </p>
                     <div class="text-center text-md-left">
-                        <button class="d-botonipac">Enviar</button>
+                        <button class="d-boton color-region-orinoquia">Enviar</button>
                     </div>
                 </div>
             </div>
             <div class="row pt-4">
                 <div class="col-md text-center">
                     <h1 class="text1-i d-md-none d-block">Todos los destinos</h1>
-                    <img class="d-block mx-auto img-fluid " src="./images/nuqui.jpg" alt="...">
+                    <img class="d-block mx-auto img-fluid " src="./images/cano-cristales-macarena.jpg" alt="...">
                     <div class="text-center">
-                        <button type="submit" class="d-botonipac d-md-none  d-inline-block">Enviar</button>
+                        <button type="submit"
+                            class="d-boton color-region-orinoquia d-md-none  d-inline-block">Enviar</button>
                     </div>
                 </div>
                 <div class="col-md">
                     <div class="d-md-block d-none">
                         <h1 class="text1-i">Todos los destinos</h1>
                         <p class="text2-i">
-                            Los turistas que aman renovar sus energías en el agua prefieren esta atractiva región y
-                            eligen como destinos las Islas de Malpelo, Nuqui, Bahía Solano y la conocida Isla Gorgona.
+                            Encantadora Orinoquía, gracias por tantas bellezas que podemos ofrecer al turista como el
+                            caño cristales, el cual es conocido como “el rio más hermoso del mundo” por su vista que
+                            deja ver de sus aguas la luz colorida y cristalina en tonalidades verde, azul, negro, rojo y
+                            amarillo. El Río Manacacías es uno de los sucesos naturales más encantadores y los ocarros.
                         </p>
                         <div>
-                            <button type="submit" class="d-botonipac">Enviar</button>
+                            <button type="submit" class="d-boton color-region-orinoquia">Enviar</button>
                         </div>
                     </div>
                 </div>
@@ -127,18 +141,18 @@
         <div class="container">
             <div class="row">
                 <div class="col-md">
-                </div>
-                <div class="img-fluid" style="width: 100%">
-                    <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-                        src="https://maps.google.com/maps?widtamph=100%25&;height=600&amp;hl=es&amp;q=Les%20Rambles,%201%20Barcelona,%20Spain+(Mi%20nombre%20de%20egocios)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
-                        href="https://www.mapsdirections.info/marcar-radio-circulo-mapa/"></a>
-                    <!--end responsive-->
+                    <div class="embed-responsive embed-responsive-21by9">
+                        <iframe class="embed-responsive-item"
+                            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2033875.9252864127!2d-74.5873019953263!3d5.1975394489590165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sorinoquia!5e0!3m2!1sen!2sco!4v1596420963851!5m2!1sen!2sco"></iframe>
+
+                        <!--end responsive-->
+                    </div>
                 </div>
             </div>
         </div>
         <!--end region-->
     </main>
-    <footer class="d-home-coloripac d-main-footer">
+    <footer class="color-region-orinoquia d-main-footer">
         <div class="container mt-auto py-3">
             <div class="row justify-content-center mb-2">
                 <div class="col-auto"><a class="d-color-letra-footer" href="#">Contáctenos</a></div>
