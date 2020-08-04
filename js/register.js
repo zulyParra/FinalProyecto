@@ -54,7 +54,7 @@ FORMULARIO.addEventListener('submit', function() {
         };
         localStorage.setItem("DatosDeUsuario", JSON.stringify(datos));
         mensajeAlerta.hidden = true;
-        window.location.href = '/login.html'
+        window.location.href = 'login.html'
     }
 
 
