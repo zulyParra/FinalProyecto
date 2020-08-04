@@ -1,17 +1,17 @@
 /*---VARIABLES---*/
 
 :root {
-    --andina-color: #1E7FD9;
-    --orinoquia-color: #90CA46;
-    --amazonas-color: #327D26;
-    --caribe-color: #D9B703;
-    --pacifico-color: #E8671F;
-    --home-color: #65C0BA;
+    --andina-color: #1e7fd9;
+    --orinoquia-color: #90ca46;
+    --amazonas-color: #327d26;
+    --caribe-color: #d9b703;
+    --pacifico-color: #e8671f;
+    --home-color: #65c0ba;
     --background-color-grey: #f5f5f5;
     /* titulos h1 y h2*/
-    --text-primary-color: #43484D;
+    --text-primary-color: #43484d;
     /* contenidos p*/
-    --text-secundary-color: #2B3035;
+    --text-secundary-color: #2b3035;
     /* texto header y botones */
     --text-header-color: #ffffff;
     /* fuente para titulos */
@@ -61,4 +61,146 @@
     font-family: var(--text-secundary-font);
     color: var(--text-secundary-color);
     font-size: 1.3em;
+}
+
+@media (max-width: 576px) {
+    .text1-i {
+        font-size: 1.7em;
+    }
+}
+
+
+/* COLOR BACKGROUND DE LA PAGINA */
+
+.d-background-page {
+    background-color: var(--background-color-grey);
+}
+
+
+/* COLOR BACKGROUND HOME */
+
+.d-home-color {
+    background-color: var(--home-color);
+}
+
+
+/* ESTILO PARA UN BOTON */
+
+.d-boton {
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: var(--home-color);
+    box-shadow: 0px 2px 4px rgba(52, 60, 68, 0.16), 0px 0px 1px rgba(117, 131, 142, 0.04);
+    border-radius: 8px;
+    border: transparent;
+}
+
+.d-boton:hover {
+    background-color: #66cac4;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* estilo de color del footer */
+
+.d-color-letra-footer {
+    font-family: var(--text-secundary-font);
+    color: var(--text-header-color);
+    font-size: 1.3em;
+}
+
+.d-main-footer {
+    position: relative;
+    bottom: 8px;
+    height: 33vh;
+    width: 100%;
+}
+
+
+/* Estilos generales formularios */
+
+.d-borde-sombreado {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.d-estilo-titulo {
+    font-family: var(--text-primary-font);
+    color: var(--text-header-color);
+}
+
+.d-color-icon {
+    color: var(--home-color);
+}
+
+.form-input:valid {
+    border-color: #b4b4b4;
+}
+
+
+/* Estilos navbar movil zuly */
+
+.z-menu-mobile {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100vw;
+    height: calc(100vh - 50px);
+    background-color: #fff;
+    color: black;
+}
+
+.z-menu-mobile ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 2em;
+    text-align: center;
+    font-family: var(--text-header-font);
+}
+
+.z-navbar-user {
+    position: absolute;
+    right: 2%;
+    top: 26%;
+}
+
+
+/* estilos sobreescritos de bootstrap */
+
+.btn-outline-light:not(:disabled):not(.disabled).active,
+.btn-outline-light:not(:disabled):not(.disabled):active,
+.show>.btn-outline-light.dropdown-toggle {
+    color: white;
+    background-color: var(--home-color);
+}
+
+.btn-outline-light:hover {
+    color: white;
+    background-color: #66cac4;
+}
+
+@media (min-width: 992px) {
+    #menu-mobile {
+        display: none !important;
+    }
+}
+
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: white;
+}
+
+.navbar {
+    justify-content: start;
+    background-color: var(--home-color);
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: var(--home-color);
 }
