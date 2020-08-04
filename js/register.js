@@ -57,27 +57,29 @@ FORMULARIO.addEventListener('submit', function() {
         window.location.href = '/login.html'
     }
 
-    const ICONO = document.getElementById('icono')
-    ICONO.addEventListener('click', function() {
-        let passwordInput = registro['password']
-        if (passwordInput.type == "password") {
-            passwordInput.type = "text"
-            ICONO.classList.replace("fa-lock", "fa-unlock")
-        } else {
-            passwordInput.type = "password"
-            ICONO.classList.replace("fa-unlock", "fa-lock")
-        }
-    })
-    const ICONO2 = document.getElementById('icono2')
-    ICONO2.addEventListener('click', function() {
-        let passwordInput2 = registro['password2']
-        if (passwordInput2.type == "password") {
-            passwordInput2.type = "text"
-            ICONO2.classList.replace("fa-lock", "fa-unlock")
-        } else {
-            passwordInput2.type = "password"
-            ICONO2.classList.replace("fa-unlock", "fa-lock")
-        }
-    })
+
 
 });
+
+const ICONO = document.getElementById('icono')
+ICONO.addEventListener('click', function() {
+    let passwordInput = FORMULARIO['password']
+    if (passwordInput.type == "password") {
+        passwordInput.type = "text"
+        ICONO.classList.replace("fa-lock", "fa-unlock")
+    } else {
+        passwordInput.type = "password"
+        ICONO.classList.replace("fa-unlock", "fa-lock")
+    }
+})
+const ICONO2 = document.getElementById('icono2')
+ICONO2.addEventListener('click', function() {
+    let passwordInput2 = FORMULARIO['password2']
+    if (passwordInput2.type == "password") {
+        passwordInput2.type = "text"
+        ICONO2.classList.replace("fa-lock", "fa-unlock")
+    } else {
+        passwordInput2.type = "password"
+        ICONO2.classList.replace("fa-unlock", "fa-lock")
+    }
+})

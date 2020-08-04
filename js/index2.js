@@ -4,4 +4,4 @@ let userData = JSON.parse(localStorage.getItem('DatosDeUsuario'));
 
 let nombreDefaul = userData.nombre;
 
-usuarioLogueado.innerHTML = 'Bienvenido: ' + nombreDefaul;
+usuarioLogueado.innerHTML = 'Bienvenido:  <br>' + nombreDefaul;
