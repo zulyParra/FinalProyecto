@@ -101,6 +101,8 @@
 
 .d-boton:hover {
     background-color: #66cac4;
+    text-decoration: none;
+    color: white;
 }
 
 
