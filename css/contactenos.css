@@ -1,1 +1,5 @@
 @import "principal.css";
+@import "index.css";
+.d-form-input:focus:invalid {
+    border-color: #ff0000d8;
+}

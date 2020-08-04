@@ -1,6 +1,124 @@
 @import "principal.css";
-.est {
-    width: 100%;
-    height: 100px;
+
+/*Inicio Estilos HOME2*/
+
+.c-textohome {
+    text-align: justify;
+    font-family: var(--text-secundary-font);
+    color: var(--text-primary-color);
+}
+
+.c-titulohome {
+    text-align: center;
+    font-family: var(--text-header-font);
+    color: var(--text-primary-color);
+}
+
+.c-colorcard {
     background-color: var(--home-color);
+    padding-top: 15px;
+}
+
+.c-colorcard:hover {
+    background-color: var(--background-color-grey);
+}
+
+.o-card4:hover {
+    background-color: var(--home-color);
+}
+
+.o-card2:hover {
+    border-color: var(--home-color);
+}
+
+.c-cajas {
+    height: 40.5em;
+    flex-wrap: wrap;
+    object-fit: none;
+}
+
+.c-horizontalcajas {
+    width: 46em;
+    height: 15em;
+    flex-wrap: wrap;
+    object-fit: cover;
+}
+
+.carousel-item img {
+    max-height: 30rem;
+}
+
+@media screen and (max-width: 768px) {
+    .ocultar-div {
+        display: none;
+    }
+}
+
+.o-box {
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding: 0px;
+    border: 1px;
+}
+
+.o-cajas {
+    max-height: 8em;
+}
+
+.o-fondo {
+    background-color: var(--background-color-grey);
+}
+
+.box {
+    /* Estado inicial */
+    border: solid transparent;
+    color: transparent;
+    /*
+		border-style: solid;
+		border-color: transparent;
+	*/
+    transition: border 1s, border-radius 1s;
+}
+
+.box:hover {
+    /* Estado Final */
+    border-color: var(--home-color);
+    border-radius: 1%;
+    color: var(--text-secundary-font);
+    filter: saturate(150%);
+}
+
+
+/*fin Estilos HOME2*/
+
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: white;
+}
+
+.navbar {
+    justify-content: start;
+}
+
+.z-navbar-user {
+    position: absolute;
+    right: 2%;
+    top: 35%;
+}
+
+.z-dropdown-menu {
+    min-width: 54rem;
+    margin: 3.15rem 0 0;
+    border: none;
+}
+
+.btn-outline-light:not(:disabled):not(.disabled).active,
+.btn-outline-light:not(:disabled):not(.disabled):active,
+.show>.btn-outline-light.dropdown-toggle {
+    background-color: #65C0BA;
+}
+
+.btn-outline-light:hover {
+    color: white;
+    background-color: #40bbb3;
 }

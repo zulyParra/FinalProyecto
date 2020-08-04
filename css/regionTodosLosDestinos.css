@@ -1,4 +1,7 @@
 @import "principal.css";
+@import "region.css";
+/*@import "todaslasregiones.css";*/
+
 .row{
     display: flex;
 }
@@ -10,11 +13,34 @@
   .row-scroll::-webkit-scrollbar {
     display: none;
   }
-  .destinos{
-      display:;
+
+  .k-cotize{
+    font-family: var(--text-primary-font);
+    color: var(--text-primary-color);
+    font-size: 1.5em;
 
   }
-.formula{
-  padding: 10px;
-  display: flex;
-}
+  .k-label{
+    font-family: var(--text-secundary-font);
+    color: var(--text-secundary-color);
+    font-size: 1.3em;
+  }
+  .img-k{
+    border-bottom-left-radius: calc(.25rem - 1px);
+  border-top-left-radius: calc(.25rem - 1px);
+  float: left;
+  padding-right: 1em;
+  margin-bottom: -1.25em;
+  }
+  .text2-k{
+    font-family: var(--text-secundary-font);
+    color: var(--text-secundary-color);
+    font-size: 1em;
+  }
+  .text2-k2{
+    font-family: var(--text-secundary-font);
+    color: var(--text-secundary-color);
+    font-size: 1em;
+  }
+  
+
