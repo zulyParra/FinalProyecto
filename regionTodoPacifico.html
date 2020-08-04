@@ -2,291 +2,308 @@
 <html lang="es" class="h-100">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="" href="#" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="" href="#" type="image/x-icon">
 
-    <!--permite utilizar los iconos de Font Awesome-->
-    <script src="./js/all.min.js"></script>
-    <!--permite utilizar los estilos de bootstrap-->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!--estilos de ésta página-->
-    <link rel="stylesheet" href="./css/regionTodosLosDestinos.css">
+  <!--permite utilizar los iconos de Font Awesome-->
+  <script src="./js/all.min.js"></script>
+  <!--permite utilizar los estilos de bootstrap-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!--estilos de ésta página-->
+  <link rel="stylesheet" href="./css/regionTodosLosDestinos.css">
 
-    <!-- para normalizar la renderización de elementos en diferentes navegadores -->
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-    <title>Eco-turismo por Colombia</title>
+  <!-- para normalizar la renderización de elementos en diferentes navegadores -->
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <title>Eco-turismo por Colombia</title>
 </head>
 
 <body>
-    <!-- Inicio Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top d-color-letra-footer">
-        <a class="navbar-brand" href="#"><i class="fas fa-map-marked-alt  text-white"></i></a>
+  <!-- Inicio Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top d-color-letra-footer color-region-pacifico">
+    <a class="navbar-brand" href="#"><i class="fas fa-map-marked-alt  text-white"></i></a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-mobile">
-            <span><i class="fas fa-bars"></i></span>
-        </button>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-mobile">
+      <span><i class="fas fa-bars"></i></span>
+    </button>
 
-        <div id="menu-mobile" class=" collapse navbar-collapse z-menu-mobile">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active  d-estilo-titulo">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
-                </li>
-                <li class="nav-item  d-estilo-titulo">
-                    <a class="nav-link" href="region.html">Andina</a>
-                </li>
-                <li class="nav-item  d-estilo-titulo">
-                    <a class="nav-link" href="#">Amazonas</a>
-                </li>
-                <li class="nav-item  d-estilo-titulo">
-                    <a class="nav-link" href="#">Caribe</a>
-                </li>
-                <li class="nav-item  d-estilo-titulo">
-                    <a class="nav-link" href="#">Orinoquía</a>
-                </li>
-                <li class="nav-item  d-estilo-titulo">
-                    <a class="nav-link" href="#">Pacífico</a>
-                </li>
-            </ul>
-        </div>
+    <div id="menu-mobile" class=" collapse navbar-collapse z-menu-mobile">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active  d-estilo-titulo">
+          <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item  d-estilo-titulo">
+          <a class="nav-link" href="region.html">Andina</a>
+        </li>
+        <li class="nav-item  d-estilo-titulo">
+          <a class="nav-link" href="#">Amazonas</a>
+        </li>
+        <li class="nav-item  d-estilo-titulo">
+          <a class="nav-link" href="#">Caribe</a>
+        </li>
+        <li class="nav-item  d-estilo-titulo">
+          <a class="nav-link" href="#">Orinoquía</a>
+        </li>
+        <li class="nav-item  d-estilo-titulo">
+          <a class="nav-link" href="#">Pacífico</a>
+        </li>
+      </ul>
+    </div>
 
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active d-sm-none d-lg-block">
-                    <a class="nav-link  text-white" href="index.html">Home <span class="sr-only"></span></a>
-                </li>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active d-sm-none d-lg-block">
+          <a class="nav-link  text-white" href="index.html">Home <span class="sr-only"></span></a>
+        </li>
 
-                <li class="nav-item dropdown d-sm-none d-lg-block">
-                    <a class="nav-link dropdown-toggle btn btn-outline-light text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Regiones
-                    </a>
-                    <div class="dropdown-menu text-white" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="region.html">Andina</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Amazonas</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Caribe</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Orinoquía</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Pacífico</a>
-                    </div>
-                </li>
-            </ul>
+        <li class="nav-item dropdown d-sm-none d-lg-block">
+          <a class="nav-link dropdown-toggle btn btn-outline-light text-white" href="#" id="navbarDropdown"
+            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Regiones
+          </a>
+          <div class="dropdown-menu text-white" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="region.html">Andina</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Amazonas</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Caribe</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Orinoquía</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Pacífico</a>
+          </div>
+        </li>
+      </ul>
 
-            <a class="nav-link text-white d-sm-none d-lg-block" href="register.html">Registrarse</a>
+      <a class="nav-link text-white d-sm-none d-lg-block" href="register.html">Registrarse</a>
 
-            <a class="btn btn-outline-light d-sm-none d-lg-block" href="/login.html">Iniciar sesión</a>
+      <a class="btn btn-outline-light d-sm-none d-lg-block" href="/login.html">Iniciar sesión</a>
 
-        </div>
+    </div>
 
-        <a class="z-navbar-user text-white d-lg-none" href="register.html"><i class="far fa-user-circle fa-lg"></i></a>
-    </nav>
-    <!-- Fin Navbar -->
-    <br>
-    <section class="container-md k-cars-uno ">
-      <div class="row-scroll">
-        <div class="col-10 col-lg-3">
-          <div class="card">
-            <div class="card-body">
-              <img class="img-fluid" src="images/Pacifico/archipielago-malpelo-Valle del cauca.jpg" alt="">
-              <h2 class="text3-i">Archipieago de Malpelo</h2>
-              <h4 class="text2-k2">Valle del cauca </h4>
-              <p class="text2-k">Está ubicado a 500 kms al occidente de buenaventura,  es uno de los sitios más impactantes, bellos,  y diversos del océano pacífico  malpelo, la roca viviente de 376 metros de altura. </p>
-            </div>
+    <a class="z-navbar-user text-white d-lg-none" href="register.html"><i class="far fa-user-circle fa-lg"></i></a>
+  </nav>
+  <!-- Fin Navbar -->
+  <br>
+  <section class="container-md k-cars-uno ">
+    <div class="row-scroll">
+      <div class="col-10 col-lg-3">
+        <div class="card">
+          <div class="card-body">
+            <img class="img-fluid" src="images/Pacifico/archipielago-malpelo-Valle del cauca.jpg" alt="">
+            <h2 class="text3-i">Archipieago de Malpelo</h2>
+            <h4 class="text2-k2">Valle del cauca </h4>
+            <p class="text2-k">Está ubicado a 500 kms al occidente de buenaventura, es uno de los sitios más
+              impactantes, bellos, y diversos del océano pacífico malpelo, la roca viviente de 376 metros de altura.
+            </p>
           </div>
         </div>
-        <div class="col-10 col-lg-3">
-          <div class="card">
-            <div class="card-body">
-              <img  class="img-fluid" src="images/Pacifico/Bahía-Solano-choco.jpg" alt="">
-              <h2 class="text3-i">Bahia Solano  </h2>
-              <h4 class="text2-k2">Choco</h4>
-              <p class="text2-k">Bahía Solano es un lugar muy demandado por ecologistas y viajeros, gracias al avistamiento de ballenas y la oportunidad de ver uno de los atardeceres más espectaculares de Colombia.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-10 col-lg-3">
-          <div class="card">
-            <div class="card-body">
-              <img  class="img-fluid" src="images/Pacifico/isla de la Corota-Pasto.jpg" alt="">
-              <h2 class="text3-i">Isla de la Corota   </h2>
-              <h4 class="text2-k2">Narino</h4>
-              <p class="text2-k">Este poblado es la puerta de la laguna de cocha  uno de los cuerpos de agua  más grandes de los andes, cuenta  con un sendero de 500 mts de largo que atraviesa la isla de lado a lado entre el denso bosque, aquí podemos encontrar platas como el motilón dulce, encinos, majua,  arrayan, anturios. </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-10 col-lg-3">
-          <div class="card">
-            <div class="card-body">
-              <img class="img-fluid" src="images/Pacifico/la-ensenada-de-utria- choco.jpg" alt="">
-              <h2 class="text3-i">La ensenada de Utría </h2>
-              <h4 class="text2-k2">Choco</h4>
-              <p class="text2-k"> Es considerada como una de la mas bellas de Suramérica; es una entrada al mar de 7.300 metros de largo y 100 de ancho. Posee playas de arena blanca, una flora y fauna muy variada y agua cristalinas. Esta ensenada es un parque de reserva natural.</p>
-            </div>
-          </div>
-        </div>
-  
       </div>
+      <div class="col-10 col-lg-3">
+        <div class="card">
+          <div class="card-body">
+            <img class="img-fluid" src="images/Pacifico/Bahía-Solano-choco.jpg" alt="">
+            <h2 class="text3-i">Bahia Solano </h2>
+            <h4 class="text2-k2">Choco</h4>
+            <p class="text2-k">Bahía Solano es un lugar muy demandado por ecologistas y viajeros, gracias al
+              avistamiento de ballenas y la oportunidad de ver uno de los atardeceres más espectaculares de Colombia.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-10 col-lg-3">
+        <div class="card">
+          <div class="card-body">
+            <img class="img-fluid" src="images/Pacifico/isla de la Corota-Pasto.jpg" alt="">
+            <h2 class="text3-i">Isla de la Corota </h2>
+            <h4 class="text2-k2">Narino</h4>
+            <p class="text2-k">Este poblado es la puerta de la laguna de cocha uno de los cuerpos de agua más grandes de
+              los andes, cuenta con un sendero de 500 mts de largo que atraviesa la isla de lado a lado entre el denso
+              bosque, aquí podemos encontrar platas como el motilón dulce, encinos, majua, arrayan, anturios. </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-10 col-lg-3">
+        <div class="card">
+          <div class="card-body">
+            <img class="img-fluid" src="images/Pacifico/la-ensenada-de-utria- choco.jpg" alt="">
+            <h2 class="text3-i">La ensenada de Utría </h2>
+            <h4 class="text2-k2">Choco</h4>
+            <p class="text2-k"> Es considerada como una de la mas bellas de Suramérica; es una entrada al mar de 7.300
+              metros de largo y 100 de ancho. Posee playas de arena blanca, una flora y fauna muy variada y agua
+              cristalinas. Esta ensenada es un parque de reserva natural.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <br>
+    <div class="row-scroll">
+      <div class="col-10 col-lg-3">
+        <div class="card">
+          <div class="card-body">
+            <img class="img-fluid" src="images/Pacifico/parque- las-hermosas-Valle del cauca.jpg" alt="">
+            <h2 class="text3-i">Parque Nacional Natural Las Hermosas </h2>
+            <h4 class="text2-k2">Cauca</h4>
+            <p class="text2-k"> Ubicado entre 1.600 y 4.200 metros sobre el nivel de mar en los departamentos del valle
+              del cauca y Tolima y entre municipios de Rioblanco y chaparral, cuenta con una extensión de 125.000
+              hectáreas si clima es de templado a frio de 1 a 25 grados centígrados.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-10 col-lg-3">
+        <div class="card">
+          <div class="card-body">
+            <img class="img-fluid" src="images/Pacifico/parque-nacional-purace -Cauca.jpg" alt="">
+            <h2 class="text3-i">Parque Natural Nacional Puracé </h2>
+            <h4 class="text2-k2">Cauca</h4>
+            <p class="text2-k"> Este bello parque forma parte del macizo colombiano donde nacen los ríos magdalena,
+              cauca y Caquetá. Es una cadena volcánica con numerosas fuentes azufradas., innumerables lagunas, paramos y
+              bosque de nieblas.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-10 col-lg-3">
+        <div class="card">
+          <div class="card-body">
+            <img class="img-fluid" src="images/Pacifico/Tierradentro-Cauca.jpg" alt="">
+            <h2 class="text3-i">Parque arqueológico de tierradentro </h2>
+            <h4 class="text2-k2">Casanare</h4>
+            <p class="text2-k">Este parque está situado en el departamento del cauca, en inmediaciones de los municipios
+              de belalcázar e inza. La topografía del área es quebrada, conserva vegetación primaria en pequeña
+              proporción y algunos animales silvestres. </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-10 col-lg-3">
+        <div class="card">
+          <div class="card-body">
+            <img class="img-fluid" src="images/Pacifico/Volcán Galeras-Pasto.jpg" alt="">
+            <h2 class="text3-i">Volcán Galeras </h2>
+            <h4 class="text2-k2">Narino</h4>
+            <p class="text2-k"> Este sitio esta tutelado a la ciudad de pasto, le da su nombre al santuario de fauna y
+              flora que rodea su imponente naturaleza, cuenta con dos senderos de interpretación ambiental ( el
+              frailejonal y el achichay ) que muestra al visitante la importancia del ecosistema de páramo</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <br>
+  <section class="container-md">
+    <div class="card-deck px-4">
+      <div class="card">
+        <img class="img-fluid" src="images/Amazona/casa.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title color-titulo-h1-h2">Casa</h5>
+          <p class="card-text">Descripcion</p>
+          <p class="card-text"><small class="text-muted">Leer mas</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="img-fluid" src="images/Amazona/finca amazon.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title color-titulo-h1-h2">Finca</h5>
+          <p class="card-text ">Descripcion.</p>
+          <p class="card-text"><small class="text-muted">Leer mas </small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="img-fluid" src="images/Amazona/apartamento.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title color-titulo-h1-h2">Apartamento</h5>
+          <p class="card-text">Descripcion.</p>
+          <p class="card-text"><small class="text-muted">Leer mas</small></p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <br>
+  <section class="formula1-k container-md px-5">
+    <form action="">
+      <div class="k-cotize text-center"> Cotize su viaje</div>
       <br>
-      <div class="row-scroll">
-        <div class="col-10 col-lg-3">
-          <div class="card">
-            <div class="card-body">
-              <img class="img-fluid" src="images/Pacifico/parque- las-hermosas-Valle del cauca.jpg" alt="">
-              <h2 class="text3-i">Parque Nacional  Natural Las Hermosas  </h2>
-              <h4 class="text2-k2">Cauca</h4>
-              <p class="text2-k"> Ubicado entre 1.600 y 4.200 metros sobre el nivel de mar  en los departamentos del valle del cauca  y Tolima y entre municipios de Rioblanco  y chaparral, cuenta con una extensión de 125.000 hectáreas si clima es de templado a frio de 1 a 25 grados centígrados.</p>
-            </div>
-          </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="k-label">Destino</label>
+          <select class="form-control" id="sel1">
+            <!--segun lo que haya enn cada region -->
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+          </select>
         </div>
-        <div class="col-10 col-lg-3">
-          <div class="card">
-            <div class="card-body">
-              <img class="img-fluid" src="images/Pacifico/parque-nacional-purace -Cauca.jpg" alt="">
-              <h2 class="text3-i">Parque Natural Nacional Puracé </h2>
-              <h4 class="text2-k2">Cauca</h4>
-              <p class="text2-k"> Este bello parque forma parte del macizo colombiano  donde nacen los ríos magdalena, cauca y Caquetá. Es una cadena volcánica con numerosas fuentes azufradas., innumerables lagunas, paramos y bosque de nieblas.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-10 col-lg-3">
-          <div class="card">
-            <div class="card-body">
-              <img class="img-fluid" src="images/Pacifico/Tierradentro-Cauca.jpg" alt="">
-              <h2 class="text3-i">Parque arqueológico de tierradentro  </h2>
-              <h4 class="text2-k2">Casanare</h4>
-              <p class="text2-k">Este parque está situado en el departamento del cauca, en inmediaciones de los municipios de belalcázar  e inza. La topografía del área es quebrada, conserva vegetación primaria en pequeña proporción y algunos animales silvestres. </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-10 col-lg-3">
-          <div class="card">
-            <div class="card-body">
-              <img class="img-fluid" src="images/Pacifico/Volcán Galeras-Pasto.jpg" alt="">
-              <h2 class="text3-i">Volcán Galeras </h2>
-              <h4 class="text2-k2">Narino</h4>
-              <p class="text2-k"> Este sitio esta tutelado  a la ciudad de pasto, le da su nombre al santuario de fauna y flora  que rodea su imponente naturaleza, cuenta  con dos senderos de interpretación ambiental ( el frailejonal  y el achichay ) que muestra al visitante  la importancia del ecosistema de páramo</p>
-            </div>
-          </div>
-        </div>
-  
-      </div>
-    </section>
-    <br>
-    <section class="container-md">
-      <div class="card-deck px-4">
-        <div class="card">
-          <img  class="img-fluid" src="images/Amazona/casa.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title color-titulo-h1-h2">Casa</h5>
-            <p class="card-text">Descripcion</p>
-            <p class="card-text"><small class="text-muted">Leer mas</small></p>
-          </div>
-        </div>
-        <div class="card">
-          <img class="img-fluid" src="images/Amazona/finca amazon.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title color-titulo-h1-h2">Finca</h5>
-            <p class="card-text ">Descripcion.</p>
-            <p class="card-text"><small class="text-muted">Leer mas </small></p>
-          </div>
-        </div>
-        <div class="card">
-          <img  class="img-fluid" src="images/Amazona/apartamento.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title color-titulo-h1-h2">Apartamento</h5>
-            <p class="card-text">Descripcion.</p>
-            <p class="card-text"><small class="text-muted">Leer mas</small></p>
-          </div>
-        </div>
+        <div class="form-group-row col-md-6">
+          <label for="k-label">Tipo de Alojamiento</label>
+          <select class="form-control" id="sel1">
+            <option>Casa</option>
+            <option>Finca</option>
+            <option>Apartamento</option>
+          </select>
         </div>
       </div>
-    </section>
-    <br>
-    <section class="formula1-k container-md px-5">
-      <form action="">
-        <div class="k-cotize text-center" > Cotize su viaje</div>
-        <br>
-        <div class="form-row">
-          <div class="form-group col-md-6">
-            <label for="k-label">Destino</label>
-            <select class="form-control" id="sel1">
-              <!--segun lo que haya enn cada region -->
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-            </select>
-          </div>
-          <div class="form-group-row col-md-6">
-            <label for="k-label">Tipo de Alojamiento</label>
-            <select class="form-control" id="sel1">
-              <option>Casa</option>
-              <option>Finca</option>
-              <option>Apartamento</option>
-            </select>
-          </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="k-label">Fecha de llegada</label>
+          <input class="form-control" type="date">
         </div>
-        <div class="form-row">
-          <div class="form-group col-md-6">
-            <label for="k-label">Fecha de llegada</label>
-            <input class="form-control" type="date">
-          </div>
-          <div class="form-group col-md-6">
-            <label for="k-label">Fecha de Salida</label>
-            <input class="form-control" type="date">
-          </div>
+        <div class="form-group col-md-6">
+          <label for="k-label">Fecha de Salida</label>
+          <input class="form-control" type="date">
         </div>
-        <div class="form-row">
-          <div class="form-group col-md-6">
-            <label for="k-label">Servicios adicionales </label>
-            <select class="form-control" id="sel1">
-              <option class="k-label">Alimentacion</option>
-              <option class="k-label">Parqueadero</option>
-              <option class="k-label">Servicios Generales</option>
-              <option class="k-label">Guia Turistico </option>
-              <option class="k-label">Transporte</option>
-            </select>
-          </div>
-          <div class="form-group col-md-6">
-            <label class="k-label" for="">Total</label>
-            <input class="form-control-plaintext text-center" type="text" readonly value="0">
-          </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="k-label">Servicios adicionales </label>
+          <select class="form-control" id="sel1">
+            <option class="k-label">Alimentacion</option>
+            <option class="k-label">Parqueadero</option>
+            <option class="k-label">Servicios Generales</option>
+            <option class="k-label">Guia Turistico </option>
+            <option class="k-label">Transporte</option>
+          </select>
         </div>
-        <div class="text-center">
-          <button class="d-boton"> Cotizar </button>
+        <div class="form-group col-md-6">
+          <label class="k-label" for="">Total</label>
+          <input class="form-control-plaintext text-center" type="text" readonly value="0">
         </div>
-      </form>
-    </section>
-    <br>
-    
-    <!-- Inicio Footer -->
-    <footer class="d-home-color d-main-footer">
-        <div class="container mt-auto py-3">
-            <div class="row justify-content-center mb-2">
-                <div class="col-auto"><a class="d-color-letra-footer" href="contactenos.html">Contactenos</a></div>
-                <div class="col-auto"><a class="d-color-letra-footer" href="#">Sobre Nosotros</a></div>
-            </div>
-            <hr>
-            <div class="row justify-content-center mb-2">
-                <div class="col-auto"><a href="#" class="text-light"><i class="fab fa-youtube-square fa-2x"></i></a>
-                </div>
-                <div class="col-auto"><a href="#" class="text-light"><i class="fab fa-twitter-square fa-2x"></i></a>
-                </div>
-                <div class="col-auto"><a href="#" class="text-light"><i class="fab fa-instagram-square fa-2x"></i></a>
-                </div>
-            </div>
-            <div class="row justify-content-center mb2">
-                <div class="col-auto"><span class="d-color-letra-footer">© 2020,All rights reserved.</span></div>
-            </div>
+      </div>
+      <div class="text-center">
+        <button class="d-boton color-region-pacifico"> Cotizar </button>
+      </div>
+    </form>
+  </section>
+  <br>
+
+  <!-- Inicio Footer -->
+  <footer class="color-region-pacifico d-main-footer">
+    <div class="container mt-auto py-3">
+      <div class="row justify-content-center mb-2">
+        <div class="col-auto"><a class="d-color-letra-footer" href="contactenos.html">Contactenos</a></div>
+        <div class="col-auto"><a class="d-color-letra-footer" href="#">Sobre Nosotros</a></div>
+      </div>
+      <hr>
+      <div class="row justify-content-center mb-2">
+        <div class="col-auto"><a href="#" class="text-light"><i class="fab fa-youtube-square fa-2x"></i></a>
         </div>
-    </footer>
-    <!-- Archivos Bootstrap javascript -->
-    <script src="js/jquery-3.5.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
- 
+        <div class="col-auto"><a href="#" class="text-light"><i class="fab fa-twitter-square fa-2x"></i></a>
+        </div>
+        <div class="col-auto"><a href="#" class="text-light"><i class="fab fa-instagram-square fa-2x"></i></a>
+        </div>
+      </div>
+      <div class="row justify-content-center mb2">
+        <div class="col-auto"><span class="d-color-letra-footer">© 2020,All rights reserved.</span></div>
+      </div>
+    </div>
+  </footer>
+  <!-- Archivos Bootstrap javascript -->
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
 </body>
 
 
